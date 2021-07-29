@@ -1,0 +1,36 @@
+:root {
+    --bg-button: #1A2980;
+    --border-button: 1px solid aqua;
+}
+
+.button {
+    font-size: 1.4em;
+    background-color: var(--bg-button);
+    border: none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+    color: #fff;
+}
+
+.button:active {
+    background-color: #25EDFF;
+    color: #000;
+}
+
+.button.double {
+    grid-column: span 2;
+}
+
+.button.triple {
+    grid-column: span 3;
+}
+
+.button.operation {
+    background-color: #12c2e9;
+    color: #FFF;
+}
+
+.button.operation:active {
+    background-color: #12c2e9cc;
+}
